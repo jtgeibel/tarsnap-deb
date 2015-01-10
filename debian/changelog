@@ -1,9 +1,10 @@
 tarsnap (1.0.35-1ubuntu1) UNRELEASED; urgency=medium
 
-  * debian/ directory fixups
-  * Add upstream signing key
+  * Add upstream signing key and check signature via debian/watch
+  * Remove article from the beginning of description
+  * Remove unused entry from debian/dirs
 
- -- Justin Geibel <jtgeibel@jtgeibel-desktop>  Sat, 10 Jan 2015 03:43:37 -0500
+ -- Justin Geibel <jtgeibel@gmail.com>  Sat, 10 Jan 2015 04:26:41 -0500
 
 tarsnap (1.0.35-1) vivid; urgency=medium
 
