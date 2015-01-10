@@ -1,6 +1,7 @@
 tarsnap (1.0.35-1ubuntu1) UNRELEASED; urgency=medium
 
   * debian/ directory fixups
+  * Add upstream signing key
 
  -- Justin Geibel <jtgeibel@jtgeibel-desktop>  Sat, 10 Jan 2015 03:43:37 -0500
 

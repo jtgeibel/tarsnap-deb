@@ -1,3 +1,3 @@
 version=3
-https://www.tarsnap.com/download.html download/tarsnap-autoconf-([0-9\.]+)\.tgz
+opts=pgpsigurlmangle=s/tarsnap-autoconf-(.*)\.tgz$/tarsnap-sigs-$1.asc/ https://www.tarsnap.com/download/ tarsnap-autoconf-([0-9.]+)\.tgz
 
