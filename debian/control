@@ -9,6 +9,6 @@ Homepage: https://www.tarsnap.com/
 Package: tarsnap
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: An online encrypted snapshotted backup service
+Description: online encrypted snapshotted backup service
  Tarsnap is an encrypted snapshotted online backup service for BSD,
  Linux, OpenSolaris, and OS X.
