@@ -1,0 +1,14 @@
+Source: tarsnap
+Section: net
+Priority: extra
+Maintainer: Justin Geibel <jtgeibel@gmail.com>
+Build-Depends: debhelper (>= 5), e2fslibs-dev, zlib1g-dev, libssl-dev, libbz2-dev, libattr1-dev, libacl1-dev
+Standards-Version: 3.9.6
+Homepage: https://www.tarsnap.com/
+
+Package: tarsnap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An online encrypted snapshotted backup service
+ Tarsnap is an encrypted snapshotted online backup service for BSD,
+ Linux, OpenSolaris, and OS X.
