@@ -1,3 +1,9 @@
+tarsnap (1.0.35-1ubuntu1) UNRELEASED; urgency=medium
+
+  * debian/ directory fixups
+
+ -- Justin Geibel <jtgeibel@jtgeibel-desktop>  Sat, 10 Jan 2015 03:43:37 -0500
+
 tarsnap (1.0.35-1) vivid; urgency=medium
 
   * Initial PPA release
