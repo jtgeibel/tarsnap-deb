@@ -1,14 +1,14 @@
-tarsnap (1.0.35-1ubuntu1~ppa1~vivid1) vivid; urgency=medium
+tarsnap (1.0.35-1ubuntu1~ppa1~trusty1) trusty; urgency=medium
 
   * Fix version number scheme
   * Increase debhelper build dep to match that in debian/compat
   * Add upstream signing key and check signature via debian/watch
   * Remove article from the beginning of description
-  * Remove unused entry from debian/dirs
+  * Remove unused entry from debian/dir
 
  -- Justin Geibel <jtgeibel@gmail.com>  Sat, 10 Jan 2015 04:26:41 -0500
 
-tarsnap (1.0.35-1) vivid; urgency=medium
+tarsnap (1.0.35-1~ppa1~trusty1) trusty; urgency=medium
 
   * Initial PPA release
 
