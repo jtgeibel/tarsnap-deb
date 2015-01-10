@@ -1,6 +1,7 @@
-tarsnap (1.0.35-1ubuntu1~ppa1~vivid1) UNRELEASED; urgency=medium
+tarsnap (1.0.35-1ubuntu1~ppa1~vivid1) vivid; urgency=medium
 
   * Fix version number scheme
+  * Increase debhelper build dep to match that in debian/compat
   * Add upstream signing key and check signature via debian/watch
   * Remove article from the beginning of description
   * Remove unused entry from debian/dirs
