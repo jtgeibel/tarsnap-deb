@@ -14,8 +14,7 @@ override_dh_auto_install:
 	dh_auto_install
 
 	mv $(CURDIR)/debian/tarsnap/etc/tarsnap.conf.sample $(CURDIR)/debian/tarsnap/etc/tarsnap.conf
-	sed -i 's,^[a-z],#\0,' $(CURDIR)/debian/tarsnap/etc/tarsnap.conf
-	sed -i 's,#cachedir .*,cachedir /var/lib/tarsnap/cache,' $(CURDIR)/debian/tarsnap/etc/tarsnap.conf
+	sed -i 's,cachedir .*,cachedir /var/lib/tarsnap/cache,' $(CURDIR)/debian/tarsnap/etc/tarsnap.conf
 
 override_dh_fixperms:
 	dh_fixperms
