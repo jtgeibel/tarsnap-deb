@@ -1,3 +1,11 @@
+tarsnap (1.0.35-1ubuntu1~ppa3~vivid1) vivid; urgency=high
+
+  * Refactor upstream's debian/rules to debhelper 9
+  * Don't comment out the default configuration options in /etc/tarsnap.conf
+  * Apply all debian hardening options
+
+ -- Justin Geibel <jtgeibel@gmail.com>  Mon, 12 Jan 2015 19:10:37 -0500
+
 tarsnap (1.0.35-1ubuntu1~ppa2~vivid1) vivid; urgency=medium
 
   * Switch to the upstream debian/rules
