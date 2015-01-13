@@ -5,6 +5,8 @@ Maintainer: Justin Geibel <jtgeibel@gmail.com>
 Build-Depends: debhelper (>= 9), e2fslibs-dev, zlib1g-dev, libssl-dev, libbz2-dev, libattr1-dev, libacl1-dev
 Standards-Version: 3.9.6
 Homepage: https://www.tarsnap.com/
+Vcs-Git: https://github.com/jtgeibel/tarsnap-deb.git
+Vcs-Browser: https://github.com/jtgeibel/tarsnap-deb
 
 Package: tarsnap
 Architecture: any
