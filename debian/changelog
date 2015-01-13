@@ -1,4 +1,4 @@
-tarsnap (1.0.35-1ubuntu1~ppa3~vivid1) vivid; urgency=high
+tarsnap (1.0.35-1ubuntu1~ppa3~trusty1) trusty; urgency=high
 
   * Refactor upstream's debian/rules to debhelper 9
   * Don't comment out the default configuration options in /etc/tarsnap.conf
